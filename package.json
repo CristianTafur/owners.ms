@@ -1,0 +1,24 @@
+{
+  "name": "users.ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "depurar": "nodemon ./app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.4",
+    "log4js": "^6.1.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.14.0",
+    "sha1": "^1.1.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
